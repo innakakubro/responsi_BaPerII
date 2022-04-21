@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kids Educational App"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my application"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="98dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="65dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/education"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="56dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="346dp"
+        android:layout_height="176dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="casual"
+        android:text="Children's Education App"
+        android:textColor="#F1EEEE"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="177dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="see more"
+        android:textColor="#FF5722"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="297dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/imgmath"
+        android:layout_width="83dp"
+        android:layout_height="91dp"
+        android:background="@drawable/blogging"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/color"
+        android:layout_width="83dp"
+        android:layout_height="91dp"
+        android:background="@drawable/star"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/planet"
+        android:layout_width="83dp"
+        android:layout_height="91dp"
+        android:background="@drawable/planet"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="368dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planet"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="466dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recommend"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="523dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/math"
+        android:layout_width="83dp"
+        android:layout_height="91dp"
+        android:background="@drawable/blogging"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="563dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="660dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="263dp"
+        android:layout_height="127dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="#673AB7"
+        android:text="Math Game"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="563dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math is fun"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="614dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
